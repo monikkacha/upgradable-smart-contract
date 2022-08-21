@@ -1,20 +1,62 @@
 {
   "manifestVersion": "3.2",
   "admin": {
-    "address": "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512",
-    "txHash": "0xc9a2e2344266d922b4f14127a0072b5f4b699d0e95bcdab72dbd25808af6784f"
+    "address": "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0",
+    "txHash": "0xe0bdc734eba9153fa30dbceed394b124aa13f6b141f6a9e6450c0c88c29e511d"
   },
   "proxies": [
     {
+      "address": "0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9",
+      "txHash": "0xa06752543bd0e528133d3effb0904096166efbe64a50f3d90b0ebd17924f80aa",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x5FC8d32690cc91D4c39d9d3abcBD16989F875707",
+      "txHash": "0x609cffe7c845fcfb3270b0036348ee83e9a02b281aa46f2c7c086bb250c6c77d",
+      "kind": "transparent"
+    },
+    {
       "address": "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0",
       "txHash": "0x9fc30fb4edbe28552bab39ea185a2f8cf4a0172a4903704000c9d98904976b5b",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xCf7Ed3AccA5a467e9e704C703E8D87F634fB0Fc9",
+      "txHash": "0x7f060d0561759ef3a2e2680fec1f024fad8490d496806e972b69d23450520d1b",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x0165878A594ca255338adfa4d48449f69242Eb8F",
+      "txHash": "0x47e787112da8da5ab0a01693471ebe983d365763a5f011636664607453e9f94e",
       "kind": "transparent"
     }
   ],
   "impls": {
     "76fffd81b8235902cf0fb90e9aa459eeb8d98bd4cf0e1dc72d498918630adb49": {
-      "address": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
-      "txHash": "0x8fc81ef77fbe5fd51857fd3debbcb66f5f46fb3dd50ea8d0d7cc17ab2401cd27",
+      "address": "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512",
+      "txHash": "0x678d2fafa4d6a52c6ea41c538c4fe1a4463273301c94d192b6ddaa3f48f29e81",
+      "layout": {
+        "storage": [
+          {
+            "label": "value",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint256",
+            "contract": "Box",
+            "src": "contracts/Box.sol:5"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    },
+    "4ff7e5d20e54ee7b1af5302b7d70bd5a4e5ad1f073e9c35ca3fef5378581eb48": {
+      "address": "0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9",
+      "txHash": "0xc3b6df864b91cf453912ffcf64c47f349fbab2f8ae9742c9f963783ba4dab6ed",
       "layout": {
         "storage": [
           {
