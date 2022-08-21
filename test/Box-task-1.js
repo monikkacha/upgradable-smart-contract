@@ -13,7 +13,7 @@ describe("Box", function () {
 
     it("Check for the value", async () => {
         await box.setValue('5');
-        expect(await await box.retrieveValue()).to.equal(BigNumber.from('5'), "Value is not same");
+        expect(await box.retrieveValue()).to.equal(BigNumber.from('5'), "Value is not same");
 
         const valueTx = await box.setValue('10');
         const valueTxReceipt = await valueTx.wait(1);
