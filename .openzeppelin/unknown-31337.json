@@ -1,8 +1,8 @@
 {
   "manifestVersion": "3.2",
   "admin": {
-    "address": "0x8A791620dd6260079BF849Dc5567aDC3F2FdC318",
-    "txHash": "0x0fbfd3e3c5a71bd8c7ee27c0832e0fb2f1ee1ba764f7af86d577ce9db43f13a8"
+    "address": "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512",
+    "txHash": "0xc9a2e2344266d922b4f14127a0072b5f4b699d0e95bcdab72dbd25808af6784f"
   },
   "proxies": [
     {
@@ -36,20 +36,35 @@
       "kind": "transparent"
     },
     {
+      "address": "0x610178dA211FEF7D417bC0e6FeD39F05609AD788",
+      "txHash": "0xf53287c825bb051a958c32c91c37e5a92b66b11ff2038709f9b0892fc05daee1",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xc6e7DF5E7b4f2A278906862b61205850344D4e7d",
+      "txHash": "0xd20fa2ded545f7e69e67bb71050f56fbfc97c04fbc2c0df75be832f8a43b757f",
+      "kind": "transparent"
+    },
+    {
       "address": "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0",
       "txHash": "0x9fc30fb4edbe28552bab39ea185a2f8cf4a0172a4903704000c9d98904976b5b",
       "kind": "transparent"
     },
     {
-      "address": "0x610178dA211FEF7D417bC0e6FeD39F05609AD788",
-      "txHash": "0xf53287c825bb051a958c32c91c37e5a92b66b11ff2038709f9b0892fc05daee1",
+      "address": "0x8A791620dd6260079BF849Dc5567aDC3F2FdC318",
+      "txHash": "0x769cac99deb9606597ced49c75b28c4347025cbd1d7e2f51da06b6f29ef635e2",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x0B306BF915C4d645ff596e518fAf3F9669b97016",
+      "txHash": "0x3ac96cb4835e5c7f39e1e1627acd2a9d3a3339fce02e650da9285e4d064f08c1",
       "kind": "transparent"
     }
   ],
   "impls": {
     "76fffd81b8235902cf0fb90e9aa459eeb8d98bd4cf0e1dc72d498918630adb49": {
-      "address": "0x2279B7A0a67DB372996a5FaB50D91eAA73d2eBe6",
-      "txHash": "0xae4f9d41fe5caf3cd79c7576d38ee4ce1228bcfb3da362516792ee904fee7aeb",
+      "address": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+      "txHash": "0x8fc81ef77fbe5fd51857fd3debbcb66f5f46fb3dd50ea8d0d7cc17ab2401cd27",
       "layout": {
         "storage": [
           {
@@ -70,8 +85,8 @@
       }
     },
     "4ff7e5d20e54ee7b1af5302b7d70bd5a4e5ad1f073e9c35ca3fef5378581eb48": {
-      "address": "0xB7f8BC63BbcaD18155201308C8f3540b07f84F5e",
-      "txHash": "0x17ebdfec733795f21b323a791333fae09de17f006e0649959a679ecac3ded708",
+      "address": "0xCf7Ed3AccA5a467e9e704C703E8D87F634fB0Fc9",
+      "txHash": "0x300e9e9aa25ed69e2123ceda12dd358d04d6956c2a334bad5fdcd8aa8b5fb282",
       "layout": {
         "storage": [
           {
@@ -92,8 +107,8 @@
       }
     },
     "3f74a0e31d5f28cb78aa1d40aa0a2c852e9f915c1e666e0ac3b97cbd74cc7844": {
-      "address": "0x0DCd1Bf9A1b36cE34237eEaFef220932846BCD82",
-      "txHash": "0xefc95af79efe6dd7339ca7c57c5f95780edeaaf24948249ce131255d5da89027",
+      "address": "0x5FC8d32690cc91D4c39d9d3abcBD16989F875707",
+      "txHash": "0x7297fbf41f15cc07cbf44138837e6b1db52d96b949bd33f0ab119609ddfc0f81",
       "layout": {
         "storage": [
           {
@@ -111,6 +126,40 @@
             "type": "t_string_storage",
             "contract": "BoxV3",
             "src": "contracts/BoxV3.sol:7"
+          }
+        ],
+        "types": {
+          "t_string_storage": {
+            "label": "string",
+            "numberOfBytes": "32"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    },
+    "dbd59e53d5b0d3cf56ead153e5b72c265fe5801656bc47cc30a02a66eac97e5a": {
+      "address": "0xa513E6E4b8f2a923D98304ec87F64353C4D5C853",
+      "txHash": "0x05cfcbff244250d5873a939ff68074a60ae79d8417552dffb756b81ab2abcee9",
+      "layout": {
+        "storage": [
+          {
+            "label": "value",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint256",
+            "contract": "Box",
+            "src": "contracts/Box.sol:5"
+          },
+          {
+            "label": "name",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_string_storage",
+            "contract": "BoxV4",
+            "src": "contracts/BoxV4.sol:7"
           }
         ],
         "types": {
