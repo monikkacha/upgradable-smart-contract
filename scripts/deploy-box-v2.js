@@ -6,7 +6,7 @@ async function main() {
 
     // run chain on same node
     const BoxV2 = await ethers.getContractFactory('BoxV2');
-    const boxv2 = await upgrades.upgradeProxy('0x0165878A594ca255338adfa4d48449f69242Eb8F', BoxV2)
+    const boxv2 = await upgrades.upgradeProxy('0x610178dA211FEF7D417bC0e6FeD39F05609AD788', BoxV2)
 
     // log the address
     console.log('box address :', boxv2.address);
